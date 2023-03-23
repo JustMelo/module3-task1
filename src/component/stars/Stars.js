@@ -22,6 +22,10 @@ export default function Stars (props) {
   )
 }
 
+Stars.defaultProps = {
+  count: 0
+}
+
 Stars.propTypes = {
   count: PropTypes.number
 }
